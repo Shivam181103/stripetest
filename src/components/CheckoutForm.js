@@ -33,7 +33,7 @@ import CardSection from "./CardSection";
         </div>
         <form onSubmit={handleSubmit}>
           <CardSection />
-          <button disabled={ props.stripe} className="btn-pay">
+          <button   className="btn-pay">
             Buy Now
           </button>
         </form>
