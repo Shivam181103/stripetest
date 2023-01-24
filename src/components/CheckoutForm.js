@@ -19,6 +19,7 @@ import CardSection from "./CardSection";
     if (result.error) {
       console.log(result.error.message);
     } else {
+      alert('success')
       console.log(result.token);
     }
   };
