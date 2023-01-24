@@ -9,7 +9,9 @@ import CardSection from "./CardSection";
   const handleSubmit = async event => {
     event.preventDefault();
 
-    const { stripe, elements } = this.props;
+     
+
+    const { stripe, elements } =  props;
     if (!stripe || !elements) {
       return;
     }
